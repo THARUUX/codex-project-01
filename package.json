@@ -1,0 +1,21 @@
+{
+  "name": "zeroz-website-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A locally hosted recreation of the Otsuka /zeroz website",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dir dist",
+    "test": "playwright test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@fontsource/zen-kaku-gothic-antique": "^5.3.1",
+    "@playwright/test": "^1.64.1"
+  }
+}
